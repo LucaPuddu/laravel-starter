@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ruleset name="Laravel">
+  <rule ref="PSR1"/>
+  <rule ref="PSR12"/>
+  <file>app/</file>
+  <file>tests/</file>
+  <file>database/</file>
+  <exclude-pattern>Javascript</exclude-pattern>
+  <exclude-pattern>.report</exclude-pattern>
+  <exclude-pattern>vendor</exclude-pattern>
+  <exclude-pattern>resources</exclude-pattern>
+  <exclude-pattern>storage/</exclude-pattern>
+  <exclude-pattern>node_modules/</exclude-pattern>
+  <exclude-pattern>database/migrations</exclude-pattern>
+  <exclude-pattern>database/factories</exclude-pattern>
+  <exclude-pattern>database/seeds</exclude-pattern>
+  <exclude-pattern>bootstrap/cache</exclude-pattern>
+</ruleset>

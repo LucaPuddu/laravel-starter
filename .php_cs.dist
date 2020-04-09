@@ -1,0 +1,20 @@
+<?php
+
+$finder = PhpCsFixer\Finder::create()
+    ->exclude('vendor')
+    ->exclude('resources')
+    ->exclude('node_modules')
+    ->exclude('storage')
+    ->exclude('bootstrap/cache')
+    ->exclude('database/migrations')
+    ->exclude('database/factories')
+    ->exclude('database/seeds')
+    ->in(__DIR__);
+
+return PhpCsFixer\Config::create()
+    ->setRules([
+        '@PSR1' => true,
+        '@PSR2' => true,
+        'array_syntax' => ['syntax' => 'short'],
+    ])
+    ->setFinder($finder);
