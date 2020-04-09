@@ -21,4 +21,4 @@ git clone git@github.com:LucaPuddu/laravel-starter.git .
 - All models reside in the `app\Models` directory
 - All models inherit from a `BaseModel` class
 - The `QueryBuilder` and `Model` static methods can be used without warnings from the IDE
-- The `User` model inherit from a `Authenticatable` class
+- The `User` model inherit from an `Authenticatable` class
