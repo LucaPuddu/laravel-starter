@@ -18,7 +18,7 @@ git clone git@github.com:LucaPuddu/laravel-starter.git .
 - [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar)
 
 #### Changes
-- All models resides in the `app\Models` directory
+- All models reside in the `app\Models` directory
 - All models inherit from a `BaseModel` class
 - The `QueryBuilder` and `Model` static methods can be used without warnings from the IDE
 - The `User` model inherit from a `Authenticatable` class
