@@ -2,15 +2,13 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
+use Eloquent;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Query\Builder as QueryBuilder;
 
 /**
  * Class BaseModel
  * @package App\Models
- * @mixin QueryBuilder
- * @mixin EloquentBuilder
+ * @mixin Eloquent
  */
 abstract class BaseModel extends Model
 {
