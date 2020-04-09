@@ -1,14 +1,13 @@
 ## About Laravel Starter
-Laravel Starter is a Laravel installation with a few utilities already installed and configured, and minor divergences
-from the _vanilla_ installation.  
-It is meant to speed up the setup of a new Laravel installation.
+Laravel Starter is a Laravel installation with a few utilities already installed and configured, and minor changes
+from the _vanilla_ installation. It is meant to speed up the setup of a new Laravel installation.
 
 ## Installation
 1. Clone this repository in your project directory
-```
+```git
 git clone git@github.com:LucaPuddu/laravel-starter.git .
 ```
-2. delete the `.git` folder.
+2. Delete the `.git` folder.
 
 ## Features
 #### Installed Packages
